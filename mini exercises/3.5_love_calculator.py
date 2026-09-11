@@ -10,7 +10,6 @@
 # 5. <10 or >90 = coke and mentos, 
 # 40-50 = alright together, 
 # else = score
-
 #Taking name input
 name1 = input("Enter your name: ").lower()
 name2 = input("Enter the name of your crush: ").lower()

@@ -37,7 +37,7 @@ choice1 = input("You are at a cross road. Where do you want to go? Type 'left' o
 if choice1 == "left":
     choice2 = input("You came to a lake. There is an island in the middle of the lake. Type 'wait' to wait for boat. Type 'swim' to swim across \n")
     if choice2 == "swim":
-        print("game over.")
+        print("You just entered a lake filled with crockodile game over.")
     else:
         choice3 = input("You arrived at the island unharmed. THere is a house with 3 doors. One red, and yellow and one blue. Which colour do you choose?")
         if choice3 == "red":
