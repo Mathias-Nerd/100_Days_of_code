@@ -26,13 +26,10 @@ while keep_running:
     name = input("Enter your name: ")
     bid = int(input("Enter bid: &"))
     people_dict[name] = bid
-    if (input("Enter 'yes' if there are other users who want to bid else enter 'no' ? \n")) == "yes":
+    choice = (input("Enter 'yes' if there are other users who want to bid else enter 'no' ? \n"))
+    if choice == "yes":
         clear_screen()
-    else:
+    elif  choice == 'no':
         keep_running = False
         clear_screen()
         find_max(people_dict)
-        
-
-        
- 
