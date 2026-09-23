@@ -2,8 +2,8 @@
 #Author: Mathias Nerd
 #Hangman game
 import random
-import day7.hangman_names as hangman_names
-import day7.hangman_art as hangman_art
+import hangman_names as hangman_names
+import hangman_art as hangman_art
 
 
 word_list = hangman_names.names
